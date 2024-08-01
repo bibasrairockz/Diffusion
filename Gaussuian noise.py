@@ -4,7 +4,7 @@ from scipy.stats.kde import gaussian_kde
 import matplotlib.pyplot as plt
 
 # original image
-f = cv2.imread(r'C:\Users\bibas\Downloads\GenAI\pytorch\data\hymenoptera_data\train\ants\162603798_40b51f1654.jpg', 0)
+f = cv2.imread(r'PATH\162603798_40b51f1654.jpg', 0)
 f = f/255 
 
 cv2.imshow('original image', f)
